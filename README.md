@@ -20,3 +20,11 @@ A list of required tasks that you will complete to build the app, in order
 The Capstone project will give you the experience you need to own the full development of an app. This first stage replicates the design and planning experience that proficient Android Developers are expected to demonstrate.
 
 ![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Top%20Headlines.png)
+
+![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Categories.png)
+
+![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Search.png)
+
+![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Saved.png)
+
+![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Sources.png)
