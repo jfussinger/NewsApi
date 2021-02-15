@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">NewsApi</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search articles.. </string>
+    <string name="searchQuery">Search Query</string>
+    <string name="search_button">Search Button</string>
+    <string name="search_label">Search Label</string>
+
+    <string name="title_topHeadlines">Top Headlines</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_search">Search</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_sources">Sources</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="empty_view_title_text">No Favorites here..</string>
+    <string name="empty_view_subtitle_text">Get started by adding Favorites</string>
+
+    <string name="editor_insert_favorite_successful">Favorite saved</string>
+    <string name="editor_insert_favorite_failed">Error with saving Favorite</string>
+
+    <string name="detail_delete_favorite_successful">Favorite deleted</string>
+    <string name="detail_delete_favorite_failed">Error with deleting favorite</string>
+
+    <string name="favorites">Favorites</string>
+
+    <!--Replace with your own ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    //For drawer_view (Navigation drawer) menu item
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_TopHeadlines">Top Headlines</string>
+    <string name="navigation_SavedForLater">Saved For Later</string>
+    <string name="navigation_Business">Business</string>
+    <string name="navigation_Entertainment">Entertainment</string>
+    <string name="navigation_General">General</string>
+    <string name="navigation_Health">Health</string>
+    <string name="navigation_Science">Science</string>
+    <string name="navigation_Sports">Sports</string>
+    <string name="navigation_Technology">Technology</string>
+
+    <string name="navigation_Sources">Sources</string>
+
+    //For activity main drawer
+
+    <string name="news">News</string>
+    <string name="topHeadlines">Top Headlines</string>
+    <string name="savedForLater">Saved For Later</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+
+    <string name="saved">Saved</string>
+    <string name="categories">Categories</string>
+    <string name="sources">Sources</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="action_share">Share</string>
+    <string name="action_open_in_browser">Open in browser</string>
+
+    <string name="favoriteId">Favorite Id</string>
+    <string name="id">Id</string>
+    <string name="name">Name</string>
+    <string name="author">Author</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="url">Url</string>
+    <string name="urlToImage">Url to image</string>
+    <string name="publishedAt">Published At</string>
+    <string name="content">Content</string>
+    <string name="category">Category</string>
+    <string name="language">Languary</string>
+    <string name="country">Country</string>
+
+    //Countries
+
+
+</resources>

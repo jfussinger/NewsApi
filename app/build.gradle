@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.android.newsapi"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'newsapicapstone'
+            keyPassword 'T5f$rk7&uW'
+            storeFile file("../keystore")
+            storePassword 'T5f$rk7&uW'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'NEWS_API_KEY', NewsAPIKey
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+    implementation("com.squareup.okhttp3:okhttp:3.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:3.11.0")
+
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    //Google Ads
+    implementation 'com.google.android.gms:play-services-ads:19.3.0'
+
+    //Google Firebase
+    implementation 'com.google.firebase:firebase-core:17.4.4'
+
+    implementation 'com.google.firebase:firebase-analytics:17.4.4'
+
+    // Dependencies for working with Architecture components
+    // You'll probably have to update the version numbers in build.gradle (Project)
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    androidTestImplementation 'androidx.room:room-testing:2.2.5'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.2.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+}
+
+
+//apply plugin: 'com.google.gms.google-services'

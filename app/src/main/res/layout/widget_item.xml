@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".widget.ArticlesWidgetProvider">
+
+    <ImageView
+        android:id="@+id/urlToImage"
+        android:contentDescription="@string/urlToImage"
+        app:srcCompat="@drawable/ic_gb"
+        android:autoMirrored="true"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.5dp"
+        android:text="@string/title"
+        android:textColor="#000080"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/publishedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.5dp"
+        android:textStyle="italic"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="@string/publishedAt"/>
+
+</LinearLayout>
