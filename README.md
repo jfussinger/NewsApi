@@ -27,4 +27,6 @@ The Capstone project will give you the experience you need to own the full devel
 
 ![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Saved.png)
 
+![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Detail%Activity.png)
+
 ![Alt Text](https://github.com/jfussinger/NewsApi/blob/master/Sources.png)
